@@ -1,0 +1,17 @@
+{
+   "compilerOptions": {
+      "target": "es2015",
+      "module": "commonjs",
+      "noImplicitAny": false,
+      "noLib": false,
+      "jsx": "react",
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+   },
+   "exclude": [
+    "typings/browser.d.ts",
+    "typings/browser",
+    "node_modules"
+  ]
+}
