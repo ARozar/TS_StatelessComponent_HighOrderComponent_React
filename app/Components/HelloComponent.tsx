@@ -23,7 +23,7 @@ class _HelloComponent extends React.Component<IHelloProps, void>{
         Comp: React.ComponentClass<Props & State>,
         getState: () => State
     ) {
-        return class HOCBase extends React.Component<Props, State> {
+        return class ComposedComponent extends React.Component<Props, State> {
             
             constructor(props){
                 super(props);

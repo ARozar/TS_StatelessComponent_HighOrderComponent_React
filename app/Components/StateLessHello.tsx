@@ -8,7 +8,7 @@ function HighOrderHello<Props, State>(
         Comp: React.StatelessComponent<Props & State>,
         getState: () => State
     ) {
-        return class HOCBase extends React.Component<Props, State> {
+        return class ComposedComponent extends React.Component<Props, State> {
             
             constructor(props){
                 super(props);
