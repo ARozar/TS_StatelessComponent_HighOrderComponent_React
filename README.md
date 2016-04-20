@@ -9,7 +9,11 @@ You will also need to install the following packages globally
 
 - webpack
 - webpack-dev-server
+- typings (for ts definition files)
+ 
 
 run npm install to install dependencies
 
-run npm start to launch
+run typing install to install typings
+
+run npm start to launch (http://localhost:8080/webpack-dev-server/index.html)
