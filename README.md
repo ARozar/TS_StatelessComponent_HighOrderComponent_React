@@ -14,6 +14,6 @@ You will also need to install the following packages globally
 
 run npm install to install dependencies
 
-run typing install to install typings
+run typings install to install typings
 
 run npm start to launch (http://localhost:8080/webpack-dev-server/index.html)
